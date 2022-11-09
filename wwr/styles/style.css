@@ -31,6 +31,7 @@ h2 {
 
 .logo, .icon {
 	width: 80px;
+	border-radius: 1000px;
 }
 
 header {
@@ -183,7 +184,33 @@ main section {
 	background-color: #9c9;
 }
 
-/* Section 3 */
+/* FAQ */
+
+#faq {
+	padding: 128px 48px 12px;
+}
+
+#faq img {
+	float: right;
+}
+
+#faq h1 {
+	color: #9c9;
+	font-size: 128px;
+	margin: 24px 0;
+}
+
+#faq h2 {
+	font-size: 32px;
+}
+
+#faq p {
+	font-size: 24px;
+	margin-left: 48px;
+	line-height: 36px;
+}
+
+/* footer */
 
 footer {
 	background-color: lightgrey;
@@ -202,6 +229,9 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+.social a {
+	text-decoration:none;
+}
 
 @media screen and (max-width: 900px) {
 	#hero, .home-grid {
@@ -239,6 +269,21 @@ footer p a:hover {
 		width: 80%;
 		display: block;
 		margin: 0 auto;
+	}
+	#faq {
+		padding-top: 12px;
+	}
+	#faq h1 {
+		margin: 0;
+	}
+	#faq img {
+		float: initial;
+		width: 100%;
+	}
+	#faq p {
+		font-size: 24px;
+		margin-left: 0;
+		line-height: 30px;
 	}
 	footer {
 		margin-top: 25px;
